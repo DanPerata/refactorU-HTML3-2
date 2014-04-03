@@ -1,0 +1,18 @@
+/* ADD YOUR STYLES HERE */
+
+.horizontal-align{
+	text-align: center;
+}
+
+.horizontal-align img,.move-inline{
+	padding: 15px;
+	vertical-align: top;
+}
+
+.move-inline{
+	display: inline-block;
+}
+
+.list-margin{
+	margin-left: 25px;
+}
