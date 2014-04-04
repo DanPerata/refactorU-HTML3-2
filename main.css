@@ -27,3 +27,63 @@
 .padded-parent{
 	padding: 30px 0px;
 }
+
+/* 8. Horizontal List */
+.horizontal-list{
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	}
+.horizontal-list li{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+/* 9 Buttons */
+
+button{
+	background-color: #FF6666;
+	border: 2px #FF6666;
+	border-radius: 5px;
+
+
+}
+
+button a{
+	text-decoration: none;
+	color: white;
+}
+
+.tall-button{
+	padding: 20px 50px;
+}
+
+.tall-button a {
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
