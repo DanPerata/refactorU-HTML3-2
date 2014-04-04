@@ -50,7 +50,6 @@
 	text-decoration: none;
 	color: white;
 	padding: 10px 10px;
-	opacity: .75;
 }
 
 .tall-button{
@@ -62,9 +61,56 @@
 	padding: 10px 40px;
 }
 
+/* 10 Navigation */
+nav ul{
+	list-style: none;
+	overflow:hidden;
+	background-color: #FF8080;
+	border-radius: 5px;
+
+}
+
+nav ul li{
+	display: inline-block;
+	float: left;
+}
+
+a:hover{
+	color: red;
+}
+
+/* Pagination */
+
+ol{
+	list-style-type: none;
+	padding: 20px 20px;
+
+}
 
 
 
+ol li{
+	display: inline-block;
+
+}
+ol li a{
+	padding: 0px 10px;
+}
+.page-indicator{
+	border-bottom: 5px solid #FF8080; 
+	text-decoration: none;
+}
+
+.page-direction{
+	text-decoration: none;
+	color:#FF8080;
+}
+
+.active-page{
+	border-bottom: 5px solid #CACAD4;
+	padding: 0px 10px;
+	color: #CACAD4;
+}
 
 
 
